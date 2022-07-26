@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./img/logo_dp.png" >
+
+
+    <title>Gerador de Senhas</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-header">
+        <div class="header" >
+            <div class="div-logo">
+                <img src="./img/logo_dp.png"/>
+                <h1>Dark Panda.io</h1>
+            </div>
+            <h1 class="title">
+                GERADOR DE SENHAS
+            </h1>
+        </div>
+
+    </div>
+    <main >
+        <input id="inputSenha" type="text"/>
+
+        <div>
+            <input id="inputTamanho" type="range" min="6" max="24"/>
+            <label for="inputTamanho"></label>
+        </div>
+        <div>
+            <input id="inputMinuscula" type="checkbox" />
+            <label for="inputMinuscula">Letras minúsculas</label>
+        </div>
+        <div>
+            <input id="inputMaiuscula" type="checkbox" />
+            <label for="inputMaiuscula">Letras maiúsculas</label>
+        </div>
+        <div>
+            <input id="inputNumero" type="checkbox" />
+            <label for="inputNumero">Números</label>
+        </div>
+        <div>
+            <input id="inputSimbolos" type="checkbox" />
+            <label for="inputSimbolos">Símbolos</label>
+        </div>
+
+        <button id="btnGerar">Gerar</button>
+
+    </main>
+    
+    <script src="script.js"></script>
+</body>
+</html>
